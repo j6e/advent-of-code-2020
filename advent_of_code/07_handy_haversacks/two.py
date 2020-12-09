@@ -30,3 +30,4 @@ def get_inside(target_bag: str) -> int:
 
 res, _ = get_inside(my_bag)
 print(f'{res} bags inside my bag')
+
