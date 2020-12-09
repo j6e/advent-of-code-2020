@@ -9,7 +9,6 @@ my_bag = "shiny gold"
 with open('advent_of_code/07_handy_haversacks/input.txt', 'r') as f:
     lines = f.readlines()
 
-
 rule_bags = {}
 for l in lines:
     main_bag = re.findall(re_main_bag, l)[0]
