@@ -58,5 +58,5 @@ class Program:
 
 #p = Program('advent_of_code/08_handheld_halting/ex.txt')
 p = Program.parse_program_from_file('advent_of_code/08_handheld_halting/input.txt')
-print(p.instructions)
+#print(p.instructions)
 print(p.find_infinite_loop())
